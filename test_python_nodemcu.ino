@@ -2,7 +2,7 @@
 String testvariable = "None";
 void setup(){
   Serial.begin(9600); // Starting serial port for seeing details
-  start("Katkam-2.4G","6302962174");  // EnAIt will connect to your wifi with given details
+  start("USer ID","Password");  // EnAIt will connect to your wifi with given details
 }
 void loop(){
   waitUntilNewReq();  //Waits until a new request from python come
