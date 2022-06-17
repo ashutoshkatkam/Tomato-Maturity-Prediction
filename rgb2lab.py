@@ -60,4 +60,4 @@ def lab2lch(inputcolour):
         H += 360
     return [L,C,H]
 
-print(lab2lch(rgb2lab([255,255,255])))
+#print(lab2lch(rgb2lab([255,255,255])))
